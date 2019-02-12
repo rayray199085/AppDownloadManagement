@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		0D6E233F22127B30003B05CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6E233E22127B30003B05CA /* AppDelegate.m */; };
-		0D6E234222127B30003B05CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6E234122127B30003B05CA /* ViewController.m */; };
 		0D6E234522127B30003B05CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D6E234322127B30003B05CA /* Main.storyboard */; };
 		0D6E234722127B32003B05CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D6E234622127B32003B05CA /* Assets.xcassets */; };
 		0D6E234A22127B32003B05CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D6E234822127B32003B05CA /* LaunchScreen.storyboard */; };
 		0D6E234D22127B32003B05CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6E234C22127B32003B05CA /* main.m */; };
 		0D6E235722127B32003B05CA /* AppDownloadManagementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6E235622127B32003B05CA /* AppDownloadManagementTests.m */; };
 		0D6E236222127B32003B05CA /* AppDownloadManagementUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6E236122127B32003B05CA /* AppDownloadManagementUITests.m */; };
+		0D6E237422127C73003B05CA /* apps_full.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D6E237322127C73003B05CA /* apps_full.plist */; };
+		0D6E237722127CEE003B05CA /* SCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6E237622127CEE003B05CA /* SCTableViewController.m */; };
+		0D6E237A22127D55003B05CA /* SCAppItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6E237922127D55003B05CA /* SCAppItem.m */; };
+		0D6E237D2212860D003B05CA /* SCTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6E237C2212860D003B05CA /* SCTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +41,6 @@
 		0D6E233A22127B30003B05CA /* AppDownloadManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppDownloadManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D6E233D22127B30003B05CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0D6E233E22127B30003B05CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0D6E234022127B30003B05CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0D6E234122127B30003B05CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0D6E234422127B30003B05CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D6E234622127B32003B05CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D6E234922127B32003B05CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,13 @@
 		0D6E235D22127B32003B05CA /* AppDownloadManagementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppDownloadManagementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D6E236122127B32003B05CA /* AppDownloadManagementUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDownloadManagementUITests.m; sourceTree = "<group>"; };
 		0D6E236322127B32003B05CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D6E237322127C73003B05CA /* apps_full.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = apps_full.plist; sourceTree = "<group>"; };
+		0D6E237522127CEE003B05CA /* SCTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCTableViewController.h; sourceTree = "<group>"; };
+		0D6E237622127CEE003B05CA /* SCTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCTableViewController.m; sourceTree = "<group>"; };
+		0D6E237822127D55003B05CA /* SCAppItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCAppItem.h; sourceTree = "<group>"; };
+		0D6E237922127D55003B05CA /* SCAppItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCAppItem.m; sourceTree = "<group>"; };
+		0D6E237B2212860D003B05CA /* SCTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCTableViewCell.h; sourceTree = "<group>"; };
+		0D6E237C2212860D003B05CA /* SCTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,13 +109,12 @@
 		0D6E233C22127B30003B05CA /* AppDownloadManagement */ = {
 			isa = PBXGroup;
 			children = (
-				0D6E233D22127B30003B05CA /* AppDelegate.h */,
-				0D6E233E22127B30003B05CA /* AppDelegate.m */,
-				0D6E234022127B30003B05CA /* ViewController.h */,
-				0D6E234122127B30003B05CA /* ViewController.m */,
-				0D6E234322127B30003B05CA /* Main.storyboard */,
+				0D6E237222127B56003B05CA /* Others */,
+				0D6E237122127B50003B05CA /* Controllers */,
+				0D6E237022127B46003B05CA /* Views */,
+				0D6E236F22127B40003B05CA /* Models */,
 				0D6E234622127B32003B05CA /* Assets.xcassets */,
-				0D6E234822127B32003B05CA /* LaunchScreen.storyboard */,
+				0D6E237322127C73003B05CA /* apps_full.plist */,
 				0D6E234B22127B32003B05CA /* Info.plist */,
 				0D6E234C22127B32003B05CA /* main.m */,
 			);
@@ -130,6 +137,44 @@
 				0D6E236322127B32003B05CA /* Info.plist */,
 			);
 			path = AppDownloadManagementUITests;
+			sourceTree = "<group>";
+		};
+		0D6E236F22127B40003B05CA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0D6E237822127D55003B05CA /* SCAppItem.h */,
+				0D6E237922127D55003B05CA /* SCAppItem.m */,
+				0D6E237B2212860D003B05CA /* SCTableViewCell.h */,
+				0D6E237C2212860D003B05CA /* SCTableViewCell.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		0D6E237022127B46003B05CA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0D6E234322127B30003B05CA /* Main.storyboard */,
+				0D6E234822127B32003B05CA /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		0D6E237122127B50003B05CA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0D6E237522127CEE003B05CA /* SCTableViewController.h */,
+				0D6E237622127CEE003B05CA /* SCTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		0D6E237222127B56003B05CA /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				0D6E233D22127B30003B05CA /* AppDelegate.h */,
+				0D6E233E22127B30003B05CA /* AppDelegate.m */,
+			);
+			name = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +239,7 @@
 		0D6E233222127B30003B05CA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SC;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Stephen Cao";
 				TargetAttributes = {
@@ -238,6 +284,7 @@
 				0D6E234A22127B32003B05CA /* LaunchScreen.storyboard in Resources */,
 				0D6E234722127B32003B05CA /* Assets.xcassets in Resources */,
 				0D6E234522127B30003B05CA /* Main.storyboard in Resources */,
+				0D6E237422127C73003B05CA /* apps_full.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +309,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D6E234222127B30003B05CA /* ViewController.m in Sources */,
+				0D6E237A22127D55003B05CA /* SCAppItem.m in Sources */,
 				0D6E234D22127B32003B05CA /* main.m in Sources */,
+				0D6E237D2212860D003B05CA /* SCTableViewCell.m in Sources */,
+				0D6E237722127CEE003B05CA /* SCTableViewController.m in Sources */,
 				0D6E233F22127B30003B05CA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SCTableViewController.h
 //  AppDownloadManagement
 //
 //  Created by Stephen Cao on 12/2/19.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface SCTableViewController : UITableViewController 
 
 @end
 
+NS_ASSUME_NONNULL_END
